@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-background: #f6f1e7;
+  --color-foreground: #221f1d;
+  --color-card: #dce3d5;
+  --color-card-foreground: #221f1d;
+  --color-primary: #b8695c;
+  --color-primary-foreground: #f6f1e7;
+  --color-secondary: #2f3b2e;
+  --color-secondary-foreground: #f6f1e7;
+  --color-muted: #e8e2d5;
+  --color-muted-foreground: #6b5f57;
+  --color-accent: #b08d57;
+  --color-accent-foreground: #221f1d;
+  --color-destructive: #d4183d;
+  --color-destructive-foreground: #ffffff;
+  --color-border: #b08d5747;
+  --color-input-background: #ede8dc;
+  --color-sage: #7c9571;
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-label: "Space Grotesk", monospace;
+}
+
+:root {
+  --font-size: 16px;
+  --background: #f6f1e7;
+  --foreground: #221f1d;
+  --card: #dce3d5;
+  --card-foreground: #221f1d;
+  --popover: #f6f1e7;
+  --popover-foreground: #221f1d;
+  --primary: #b8695c;
+  --primary-foreground: #f6f1e7;
+  --secondary: #2f3b2e;
+  --secondary-foreground: #f6f1e7;
+  --muted: #e8e2d5;
+  --muted-foreground: #6b5f57;
+  --accent: #b08d57;
+  --accent-foreground: #221f1d;
+  --destructive: #d4183d;
+  --destructive-foreground: #fff;
+  --border: #b08d5747;
+  --input: transparent;
+  --input-background: #ede8dc;
+  --switch-background: #cbced4;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #b8695c;
+  --radius: 0.25rem;
+  --sidebar: #2f3b2e;
+  --sidebar-foreground: #f6f1e7;
+  --sidebar-primary: #b8695c;
+  --sidebar-primary-foreground: #f6f1e7;
+  --sidebar-accent: #3d4e3c;
+  --sidebar-accent-foreground: #f6f1e7;
+  --sidebar-border: #b08d5733;
+  --sidebar-ring: #b8695c;
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+    outline-color: var(--ring);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+  html {
+    font-size: var(--font-size);
+  }
+}
