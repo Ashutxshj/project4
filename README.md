@@ -1,6 +1,4 @@
-# muskara-react
-
-Exact replica of [muskara-perfume-website.vercel.app](https://muskara-perfume-website.vercel.app/) — an artisanal Indian perfume store — built with **React + Vite**, Tailwind CSS v4, and Framer Motion.
+An artisanal Indian perfume store — built with **React + Vite**, Tailwind CSS v4, and Framer Motion.
 
 Single-URL SPA (no router): views switch through a `page` state — home, shop, product, cart, login, register, orders, and the 5-step Scent Finder quiz. The backend is a self-contained mock in `src/api/` (local product data + localStorage for auth, cart, and orders), so the whole site runs offline with realistic loading/error states.
 
