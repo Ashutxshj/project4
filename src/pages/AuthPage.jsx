@@ -284,7 +284,7 @@ export default function AuthPage({ mode, setPage, session, onAuthed, onLogout, s
             marginBottom: 12,
           }}
         >
-          Muskara Perfumes
+          Ittra Perfumes
         </div>
         <h1
           style={{
@@ -295,7 +295,7 @@ export default function AuthPage({ mode, setPage, session, onAuthed, onLogout, s
             margin: '0 0 8px',
           }}
         >
-          {isLogin ? 'Welcome back' : 'Join Muskara'}
+          {isLogin ? 'Welcome back' : 'Join Ittra'}
         </h1>
         <p
           style={{
@@ -474,7 +474,7 @@ export default function AuthPage({ mode, setPage, session, onAuthed, onLogout, s
           marginTop: 22,
         }}
       >
-        {isLogin ? 'New to Muskara?' : 'Already have an account?'}{' '}
+        {isLogin ? 'New to Ittra?' : 'Already have an account?'}{' '}
         <button
           onClick={() => setPage(isLogin ? 'register' : 'login')}
           style={{

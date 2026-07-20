@@ -56,7 +56,7 @@ const MOODS = [
   {
     name: 'Bright & Citrus',
     filters: { family: ['Bright & Citrus'] },
-    bg: '#7C9571',
+    bg: '#9c7c94',
     image:
       'https://images.unsplash.com/photo-1687236918594-ead4688ed6f2?w=600&h=800&fit=crop&auto=format',
   },
@@ -606,7 +606,7 @@ export default function HomePage({ setPage, setSelectedProduct }) {
                   opacity: 0.85,
                 }}
               >
-                Founder, Muskara
+                Founder, Ittra
               </div>
             </div>
           </div>
@@ -708,7 +708,7 @@ export default function HomePage({ setPage, setSelectedProduct }) {
         >
           <div>
             <span style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: 20, color: CREAM }}>
-              Muskara
+              Ittra
             </span>
             <p
               style={{
@@ -733,7 +733,7 @@ export default function HomePage({ setPage, setSelectedProduct }) {
               color: 'rgba(176,141,87,0.6)',
             }}
           >
-            © 2026 Muskara
+            © 2026 Ittra
           </div>
         </div>
       </footer>

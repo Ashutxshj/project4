@@ -77,7 +77,7 @@ export default function OrdersPage({ setPage, session, cart, setCart, showToast 
             margin: '0 0 24px',
           }}
         >
-          Your order history lives in your Muskara account.
+          Your order history lives in your Ittra account.
         </p>
         <button
           onClick={() => setPage('login')}

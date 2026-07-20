@@ -330,7 +330,7 @@ export default function Header({
                 letterSpacing: '-0.01em',
               }}
             >
-              Muskara
+              Ittra
             </span>
           </button>
         </div>

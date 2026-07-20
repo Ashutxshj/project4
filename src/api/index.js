@@ -10,7 +10,7 @@ const SESSION_KEY = 'rosebud_session' // session object (same key as original)
 const USERS_KEY = 'muskara_users' // registered accounts store
 const ORDERS_KEY = 'muskara_orders' // orders store, keyed by email
 
-const AVATAR_COLORS = ['#B8695C', '#2F3B2E', '#B08D57', '#7C9571', '#6B4E3D']
+const AVATAR_COLORS = ['#9b3b54', '#33263b', '#B08D57', '#9c7c94', '#6B4E3D']
 
 const delay = (ms = 550) => new Promise((res) => setTimeout(res, ms))
 

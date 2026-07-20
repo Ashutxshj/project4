@@ -28,7 +28,7 @@ const BANNERS = [
     cta: 'Take the quiz',
     ctaStyle: 'filled',
     page: 'quiz',
-    bg: '#2F3B2E',
+    bg: '#33263b',
     overlay: 'linear-gradient(105deg, rgba(47,59,46,0.92) 40%, rgba(47,59,46,0.25) 100%)',
     image:
       'https://images.unsplash.com/photo-1743915834254-101ee0cde447?w=1400&h=600&fit=crop&auto=format',
